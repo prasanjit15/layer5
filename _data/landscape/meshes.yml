@@ -115,11 +115,11 @@
   tcp-web: "Yes"
   grpc: "Yes"
   h2: "Yes"
-  multi-cluster: "Experimental"
-  multi-tenant: "Experimental"
-  desc: "An open platform to connect, monitor, and secure microservices. Governed by Google and IBM."
+  multi-cluster: "Yes"
+  multi-tenant: "Yes"
+  desc: "An open platform to connect, monitor, and secure microservices. Created by Google and IBM; now with maintainers from 14 companies and implementations from over 15 vendors."
   prometheus: "Yes"
-  tracing: "Jaeger"
+  tracing: "OpenTracing, Zipkin, Jaeger, Lightstep"
   encryption: "Yes"
   multi-tenant-score: 5
   netdev-persona-score: 1
@@ -273,6 +273,29 @@
   encryption: "Yes"
   multi-tenant-score: 10
   netdev-persona-score: 8
+
+- name: Open Service Mesh
+  desc: "Open Service Mesh (OSM) is a lightweight and extensible cloud native service mesh."
+  link: https://openservicemesh.io/
+  h2: "Yes"
+  grpc: "Yes"
+  tcp-web: "Yes"
+  multi-cluster: "No"
+  multi-tenant: "No"
+  prometheus: "Yes"
+  tracing: "No"
+  encryption: "Yes"
+  multi-tenant-score: 1
+  netdev-persona-score: 5
+  smi: 
+    tac: "Yes"
+    taclink: "https://github.com/openservicemesh/osm#smi-specification-support"
+    tmetrics: "Yes"
+    tmetricslink: "https://github.com/openservicemesh/osm#smi-specification-support"
+    tsplit: "Yes"
+    tsplitlink: "https://github.com/openservicemesh/osm#smi-specification-support"
+    tspec: "Yes"
+    tspeclink: "https://github.com/openservicemesh/osm#smi-specification-support"
 
 - name: Rotor
   link: https://github.com/turbinelabs/

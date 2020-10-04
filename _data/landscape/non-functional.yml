@@ -65,7 +65,7 @@
   primary-lang: Go
   announce-date: May 2017
   ga-1-date: July 2018
-  commercial: AspenMesh
+  commercial: AspenMesh, Layer5, Solo.io, Tetrate
   category: Service Mesh
   timeline-order: 5
   icon: assets/images/service-mesh-icons/istio.png
@@ -93,7 +93,19 @@
   category: Service Mesh
   timeline-order: 10
   icon: assets/images/service-mesh-icons/conduit.png
-  
+
+- name: Kuma
+  opensource: "Yes"
+  link: https://kuma.io/
+  governance: CNCF
+  primary-lang: Go
+  announce-date: September 2019
+  ga-1-date: "?"
+  commercial: Kuma
+  category: Service Mesh
+  timeline-order: 19
+  icon: assets/images/service-mesh-icons/Kuma.svg
+
 - name: Linkerd 2.x
   opensource: "Yes"
   link: https://linkerd.io
@@ -164,6 +176,18 @@
   category: Service Mesh
   timeline-order: 16
   icon: assets/images/service-mesh-icons/octarine.png
+
+- name: Open Service Mesh
+  opensource: "Yes"
+  link: https://openservicemesh.io/
+  governance: CNCF
+  primary-lang: Go
+  announce-date: August 2020
+  ga-1-date: "?"
+  commercial: Microsoft
+  category: Service Mesh
+  timeline-order: 20
+  icon: assets/images/service-mesh-icons/osm.png
 
 - name: Rotor
   opensource: "Yes"
